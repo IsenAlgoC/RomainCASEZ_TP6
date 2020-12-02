@@ -1,4 +1,5 @@
-
+#pragma once
+#pragma once
 #include "personne.h"
 // LISTES UNILATERES **************************************************
 // #define VERSION 3.0
@@ -34,4 +35,3 @@ int InsertElementAt(LinkedList* liste, int i, Enregistrement pers);
 
 // Suppression et destruction d'un élément de liste chainée
 int DeleteLinkedListElem(LinkedList* list, SingleLinkedListElem* Elem);
-
